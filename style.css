@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.main{
+    background-color: rgba(206, 20, 187, 0.581);
+}
+
+.header{
+    border: 2px solid black;
+    width: 100%;
+    
+    
+    
+}
+.header .header-container{
+    border: 2px solid red;
+    max-width: 1500px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+.header .header-container .content{
+    border: 2px solid black;
+    flex-basis: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+.header .header-container .img{
+    border: 2px solid black;
+    flex-basis: 50%;
+   
+}
+.header .header-container .img>img{
+    width: 100%;
+    object-fit: scale-down;
+    height: 500px;
+}
